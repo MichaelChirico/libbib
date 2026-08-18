@@ -1,0 +1,25 @@
+Package: libbib
+Type: Package
+Title: Various Utilities for Library Science/Assessment and Cataloging
+Version: 1.6.4
+Authors@R: person("Tony", "Fischetti",
+             email="tony.fischetti@gmail.com",
+             role=c("aut", "cre"))
+Maintainer: Tony Fischetti <tony.fischetti@gmail.com>
+Description: Provides functions for validating and normalizing bibliographic
+   codes such as ISBN, ISSN, and LCCN. Also includes functions to communicate
+   with the WorldCat API, translate Call numbers (Library of Congress and
+   Dewey Decimal) to their subject classifications or subclassifications,
+   and provides various loadable data files such call number / subject
+   crosswalks and code tables.
+License: GPL-3
+Depends: R (>= 3.5.0), utils
+Imports: curl, data.table, methods, pbapply, stringr, xml2
+Suggests: assertr, testthat, knitr, magrittr, rmarkdown
+Encoding: UTF-8
+VignetteBuilder: knitr
+NeedsCompilation: no
+Packaged: 2026-08-18 23:47:57 UTC; chiricom
+Author: Tony Fischetti [aut, cre]
+URL: https://github.com/NYPL/libbib
+Config/roxygen2/version: 8.0.0
