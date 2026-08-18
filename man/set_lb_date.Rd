@@ -20,6 +20,7 @@ Takes an object and a date and sets a special attribute, "lb.date"
 by reference
 }
 \examples{
+library(data.table)
 set_lb_date(mtcars, "2021-05-08")
 attributes(mtcars)$lb.date
 # [1] "2021-05-08

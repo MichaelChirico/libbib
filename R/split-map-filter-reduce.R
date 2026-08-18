@@ -16,6 +16,7 @@
 #' @seealso \code{\link{split_map_filter_reduce}}
 #'
 #' @examples
+#' library(data.table)
 #' car(c(8, 6, 7, 5, 3, 0, 9))      # 8
 #' mt <- as.data.table(mtcars)
 #' dt_del_cols(mt, "cyl", "disp", "hp")
@@ -41,6 +42,7 @@ car <- function(x){
 #' @seealso \code{\link{split_map_filter_reduce}}
 #'
 #' @examples
+#' library(data.table)
 #'
 #' remove_duplicates_and_nas(c(8, 6, 7, 5, 3, 0, 9, 6, NA, 3))
 #' # 8 6 7 5 3 0 9
@@ -75,6 +77,7 @@ remove_duplicates_and_nas <- function(x){
 #' @seealso \code{\link{paste}}
 #'
 #' @examples
+#' library(data.table)
 #'
 #' lambda <- recombine_with_sep_closure()
 #' lambda(c(8, 6, 7))                               # "8;6;7"
@@ -150,6 +153,7 @@ recombine_with_sep_closure <- function(sep=";"){
 #' @seealso \code{\link{recombine_with_sep_closure}}
 #'
 #' @examples
+#' library(data.table)
 #'
 #' someisbns <- c("9782711875177;garbage-isbn;2711875172;2844268900",
 #'                "1861897952; 978-1-86189-795-4")

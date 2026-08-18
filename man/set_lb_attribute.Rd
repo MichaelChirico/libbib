@@ -24,6 +24,7 @@ Takes an object, attribute name, and a value and sets a special
 libbib attribute by reference
 }
 \examples{
+library(data.table)
 set_lb_attribute(mtcars, "source", "R built-in dataset")
 
 versicolor <- iris[iris$Species=="versicolor", ]

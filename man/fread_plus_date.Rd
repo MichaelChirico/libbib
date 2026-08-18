@@ -48,6 +48,7 @@ with an ISO 8601 date appended to that file name on your disk, and
 attribute is set to the current date.
 }
 \examples{
+library(data.table)
 \dontrun{
   # there's a file called "iris-2021-05-08.csv" on disk
   dat <- fread_plus_date("iris.csv")

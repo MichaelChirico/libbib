@@ -53,7 +53,7 @@ Returns a vector
 }
 \description{
 This function takes a vector of strings, splits those strings
-on a particular character; string; or regex patters, applies a
+on a particular character; string; or regex pattern, applies a
 user-specified function to each sub-element of the now split element,
 filters those sub-elements using a user-specified function, and, finally,
 recombines each element's sub-elements using a user specified reduction
@@ -70,6 +70,7 @@ might be useful for, as an example, batch normalizing ISBNs that,
 for each bibliographic record, is separated by a semicolon
 }
 \examples{
+library(data.table)
 
 someisbns <- c("9782711875177;garbage-isbn;2711875172;2844268900",
                "1861897952; 978-1-86189-795-4")

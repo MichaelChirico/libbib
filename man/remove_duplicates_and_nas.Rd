@@ -20,6 +20,7 @@ elements and without NA values
 Can be used as a filtering function in \code{split_map_filter_reduce}
 }
 \examples{
+library(data.table)
 
 remove_duplicates_and_nas(c(8, 6, 7, 5, 3, 0, 9, 6, NA, 3))
 # 8 6 7 5 3 0 9

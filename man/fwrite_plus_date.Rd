@@ -60,6 +60,7 @@ the base file name (after any directories) with the exception of
 the file extension.
 }
 \examples{
+library(data.table)
 \dontrun{
 
 set_lb_date(iris, "2021-05-08")

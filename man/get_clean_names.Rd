@@ -29,6 +29,7 @@ will show stating such and the duplicate column names will be
 make unique.
 }
 \examples{
+library(data.table)
 ejemplo <- iris
 names(ejemplo) <- c("Sepal Length", "Sepal@Width", "Petal	Length",
                     "Petal\\\\nWidth", "Spêcies")

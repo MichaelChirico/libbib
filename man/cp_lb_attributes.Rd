@@ -20,6 +20,7 @@ Takes two objects and copies all special libbib attributes
 to the second, by reference.
 }
 \examples{
+library(data.table)
 
 tmp1 <- "a"
 set_lb_date(tmp1, "2021-05-08")

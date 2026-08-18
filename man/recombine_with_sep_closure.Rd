@@ -22,6 +22,7 @@ elements of that vector together
 Can be used as a reduction function in \code{split_map_filter_reduce}
 }
 \examples{
+library(data.table)
 
 lambda <- recombine_with_sep_closure()
 lambda(c(8, 6, 7))                               # "8;6;7"
